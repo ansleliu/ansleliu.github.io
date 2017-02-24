@@ -42,13 +42,83 @@
 								</ul>
 							</section>
 							<section>
+								<h2>Performance Result:</h2>
+								<div class="table-wrapper">
+									<table class="alt">
+										<thead>
+											<tr>
+												<th>Network</th>
+												<th>Description</th>
+												<th>Improved SNR (dB)</th>
+												<th>Improved PESQ</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>DDSRCNN20</td>
+												<td>Deep Denoising Super-Resolution CNN/20 Input,20 Output.</td>
+												<td>4.178/5.019(Overlap)</td>
+												<td>0.452/0.824(Overlap)</td>
+											</tr>
+											<tr>
+												<td>DDSRCNN40</td>
+												<td>Deep Denoising Super-Resolution CNN/40 Input,40 Output.</td>
+												<td>4.844/5.449(Overlap)</td>
+												<td>0.594/0.823(Overlap)</td>
+											</tr>
+											<tr>
+												<td>DDSRCNN80</td>
+												<td>Deep Denoising Super-Resolution CNN/80 Input,80 Output.</td>
+												<td>5.225/5.725(Overlap)</td>
+												<td>0.860/1.109(Overlap)</td>
+											</tr>
+											<tr>
+												<td>ESRCNN20</td>
+												<td>Expantion Super-Resolution CNN/20 Input,20 Output.</td>
+												<td>3.625/4.135(Overlap)</td>
+												<td>0.401/0.635(Overlap)</td>
+											</tr>
+											<tr>
+												<td>ESRCNN40</td>
+												<td>Expantion Super-Resolution CNN/40 Input,40 Output.</td>
+												<td>4.063/-.--(Overlap)</td>
+												<td>0.537/-.--(Overlap)</td>
+											</tr>
+											<tr>
+												<td>ESRCNN80</td>
+												<td>Expantion Super-Resolution CNN/80 Input,80 Output.</td>
+												<td>4.764/-.--(Overlap)</td>
+												<td>0.702/-.--(Overlap)</td>
+											</tr>
+											<tr>
+												<td>DNN20</td>
+												<td>Deep Neural Network/20 Input,20 Output.</td>
+												<td>2.511/3.523(Overlap)</td>
+												<td>0.229/0.595(Overlap)</td>
+											</tr>
+											<tr>
+												<td>DNN40</td>
+												<td>Deep Neural Network/40 Input,40 Output.</td>
+												<td>3.500/down(Overlap)</td>
+												<td>down/down(Overlap)</td>
+											</tr>
+											<tr>
+												<td>DNN80</td>
+												<td>Deep Neural Network/80 Input,80 Output.</td>
+												<td>3.500/down(Overlap)</td>
+												<td>down/down(Overlap)</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</section>
+
+							<section>
 								<h2>Images</h2>
 								<div class="box alt">
 									<div class="row uniform">
-										<div class="12u$"><span class="image fit"><img src="images/CNN/SRCNN.png" alt=""></span></div>
-										<div class="12u$"><span class="image fit"><img src="images/CNN/DCNN.png" alt=""></span></div>
-										<div class="12u$"><span class="image fit"><img src="images/CNN/ESRCNN.png" alt=""></span></div>
-										<div class="12u$"><span class="image fit"><img src="images/CNN/DDSRCNN.png" alt=""></span></div>
+										<div class="12u$"><span class="image fit"><img src="images/CNN/DDSRCNN20.png" alt=""></span></div>
+										<div class="12u$"><span class="image fit"><img src="images/CNN/ESRCNN20.png" alt=""></span></div>
 									</div>
 								</div>
 							</section>
