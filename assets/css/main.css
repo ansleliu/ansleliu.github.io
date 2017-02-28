@@ -3330,6 +3330,21 @@
 					padding: 3em 2em 1em 2em ;
 				}
 
+				.wrapper > .inner > section > box.alt row.unform > 12u$ > iframe {
+					width: 100%;
+					height: 100%;
+				}
+
+				.wrapper > .inner > section > box.alt row.unform > 6u$ > iframe {
+					width: 100%;
+					height: 100%;
+				}
+
+				.wrapper > .inner > section > box.alt row.unform > 6u > iframe {
+					width: 100%;
+					height: 100%;
+				}
+
 			}
 
 		.wrapper.alt {
