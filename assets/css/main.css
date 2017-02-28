@@ -3921,8 +3921,8 @@
 				}
 
 				#sidebar .image.avatar {
-					margin: 0 0 0 2em;
-					width: 2em;
+					margin: 0 0 1em 0;
+					width: 3em;
 				}
 
 				#sidebar nav {
