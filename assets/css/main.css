@@ -3013,8 +3013,8 @@
 				}
 
 				.split.style1> section > ul >li > iframe {
-					width: 420px;
-					height: 260px;
+					width: 50%;
+					height: 50%;
 				}
 
 		}
@@ -3027,8 +3027,8 @@
 			}
 
 			.split.style1> section > ul >li > iframe {
-				width: 360px;
-				height: 223px;
+				width: 50%;
+				height: 50%;
 			}
 
 		}
