@@ -3920,6 +3920,11 @@
 					line-height: inherit;
 				}
 
+				#sidebar .image.avatar {
+					margin: 0 0 1em 0;
+					width: 4em;
+				}
+
 				#sidebar nav {
 					height: inherit;
 					line-height: inherit;
