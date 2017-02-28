@@ -3459,9 +3459,9 @@
 
 		.video-container {
 		        position: relative;
-		        padding-bottom: 56.94%;
-		        padding-top: 10px;
-		        height: 0;
+		        padding-bottom: 56.25%;
+		        padding-top: 0px;
+						height: 0;
 		        overflow: hidden;
 		    }
 
@@ -3469,11 +3469,9 @@
 		        position: absolute;
 		        top: 0;
 		        left: 0;
-		        width: 90%;
-		        height: 90%;
+		        width: 100%;
+		        height: 100%;
 		    }
-
-
 
 /* Header */
 
