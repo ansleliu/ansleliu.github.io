@@ -3012,7 +3012,7 @@
 					padding-top: 0;
 				}
 
-				.split.style1> section > ul >li > .iframe {
+				.split.style1> section > ul >li > iframe {
 					width: 60%;
 					height: 60%;
 				}
@@ -3025,8 +3025,8 @@
 				margin: 3em 0 0 0;
 				padding: 3em 0 0 0;
 			}
-			
-			.split.style1> section > ul >li > .iframe {
+
+			.split.style1> section > ul >li > iframe {
 				width: 60%;
 				height: 60%;
 			}
