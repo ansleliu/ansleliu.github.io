@@ -3012,6 +3012,11 @@
 					padding-top: 0;
 				}
 
+				.split.style1> section > ul >li > iframe {
+					width: 420px;
+					height: 260px;
+				}
+
 		}
 
 		@media screen and (max-width: 736px) {
