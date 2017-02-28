@@ -3012,6 +3012,11 @@
 					padding-top: 0;
 				}
 
+				.split.style1> section > ul >li > .iframe {
+					width: 60%;
+					height: 60%;
+				}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3922,7 +3927,7 @@
 
 				#sidebar .image.avatar {
 					margin: 0 1em 1em 1em;
-					width: 3.5em;
+					width: 3.2em;
 				}
 
 				#sidebar nav {
