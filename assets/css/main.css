@@ -3012,11 +3012,6 @@
 					padding-top: 0;
 				}
 
-				.split.style1> section > ul >li > iframe {
-					width: 60%;
-					height: 60%;
-				}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3027,8 +3022,8 @@
 			}
 
 			.split.style1> section > ul >li > iframe {
-				width: 60%;
-				height: 60%;
+				width: 360;
+				height: 223;
 			}
 
 		}
