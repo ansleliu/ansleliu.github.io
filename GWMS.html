@@ -45,7 +45,7 @@
 								<h2>Video</h2>
 								<div class="box alt">
 									<div class="row uniform">
-										<div class="12u$"><iframe width="966" height="550" src="https://www.youtube.com/embed/L2XxyhGJ4qk?rel=0" frameborder="0" allowfullscreen></iframe></div>
+										<div class="12u$"><iframe id="youtube" width="966" height="550" src="https://www.youtube.com/embed/L2XxyhGJ4qk?rel=0" frameborder="0" allowfullscreen></iframe></div>
 									</div>
 								</div>
 							</section>
@@ -99,6 +99,12 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script>
+				video = document.getElementById("youtube");
+				if (video != null) {
+				    video.style.height = video.scrollWidth*0.8+"px";
+				}
+			</script>
 
 	</body>
 </html>
